@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Maskany/static/css/main.95b91016.css",
+    "main.js": "/Maskany/static/js/main.47a31de8.js",
+    "index.html": "/Maskany/index.html",
+    "main.95b91016.css.map": "/Maskany/static/css/main.95b91016.css.map",
+    "main.47a31de8.js.map": "/Maskany/static/js/main.47a31de8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95b91016.css",
+    "static/js/main.47a31de8.js"
+  ]
+}
