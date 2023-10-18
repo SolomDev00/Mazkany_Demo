@@ -1,0 +1,174 @@
+nav {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 20%;
+}
+
+.logo img {
+  width: 55px;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.search {
+  border: 1px solid gray;
+  padding: 5px 40px 5px 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search select,
+.searchBtn {
+  outline: none;
+  border: none;
+  background-color: white;
+}
+
+.searchBtn {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+  color: #9b927d;
+  text-decoration: none !important;
+}
+
+.searchBtnActive a {
+  color: rgb(58, 162, 247);
+  text-decoration: none !important;
+}
+
+.search select {
+  width: 18px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.search-icon {
+  font-size: 16px;
+  color: #9b927d;
+}
+
+.payDay,
+.packages,
+.searchWithMap {
+  padding: 5px 10px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  text-decoration: none;
+  color: #9b927d;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.payDay:hover,
+.packages:hover,
+.search-icon:hover,
+.searchWithMap:hover {
+  color: rgb(58, 162, 247);
+}
+
+.support {
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropDown {
+  width: 65px;
+  display: flex;
+  padding: 5px 10px;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  border-radius: 6px;
+  background-color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.userIcon {
+  border-radius: 0 5px 5px 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.user-icon {
+  color: black !important;
+  font-size: 19px;
+}
+
+.toggleBtn {
+  border-radius: 5px 0 0 5px !important;
+  background-color: transparent !important;
+  color: black !important;
+  border: none !important;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size: 17px;
+}
+
+.active-link {
+  color: rgb(58, 162, 247);
+}
+
+.dropdown-item {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dropdown-item a {
+  color: #707070;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.item.active,
+.dropdown-item:active {
+  background-color: #9b927d !important;
+}
+
+@media (max-width: 767px) {
+  .search,
+  .payDay,
+  .support,
+  .packages,
+  .searchWithMap {
+    display: none !important;
+  }
+  .dropDown {
+    justify-content: space-between;
+    width: 80px;
+  }
+  .dropDown button {
+    width: 60px;
+  }
+}
+
+@media (min-width: 767px) {
+  #phoneOnly {
+    display: none !important;
+  }
+}
