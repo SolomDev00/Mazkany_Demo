@@ -1,0 +1,38 @@
+.page_404 {
+  margin-top: 10%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 0;
+  background: #fff;
+}
+
+.Error404 {
+  padding-bottom: 100px;
+}
+
+.ErrorInfoContent h3 {
+  font-size: 50px;
+}
+
+.ErrorInfoContent p {
+  font-size: 30px;
+}
+
+.link_404 {
+  color: #fff !important;
+  display: inline-block;
+  background: #9b927d;
+  padding: 10px 20px;
+  margin: 20px 0;
+  text-decoration: none;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.5s;
+}
+
+.link_404:hover {
+  scale: 1.1;
+}
